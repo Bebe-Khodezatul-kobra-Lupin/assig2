@@ -516,6 +516,7 @@ span {
         border-radius: 8px;
     }
 
+    /* This is artical part */
     .artical {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
