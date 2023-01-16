@@ -381,6 +381,7 @@ span {
     ;
 }
 
+/* Extra designe part */
 .flip-card {
     background-color: transparent;
     perspective: 1000px;
@@ -396,4 +397,239 @@ span {
 
 .flip-card:hover .flip-card-inner {
     transform: rotateY(360deg);
+}
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+
+    }
+
+    .container {
+
+        width: 300px;
+        padding: 20px;
+    }
+
+    .nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+
+    }
+
+    .nav_list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+    }
+
+    .nav ul {
+        display: flex;
+        align-items: center;
+        margin-top: 7px;
+    }
+
+    .nav ul li {
+        list-style: none;
+        margin-left: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        color: #424242;
+    }
+
+    .banners {
+        margin-top: 50px;
+    }
+
+    .banner-title {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        font-weight: 100;
+        font-size: 24px;
+        text-align: center;
+        color: #131313;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .article_info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        color: #727272;
+    }
+
+    .primary_button {
+        display: grid;
+        padding: 15px 20px;
+        border: 0px;
+        margin-left: 100px;
+    }
+
+
+
+    .banner_img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .top-teammate {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .teammates {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tramate img {
+        width: 342px;
+        height: 342px;
+        border-radius: 8px;
+    }
+
+    .artical {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+    }
+
+    .articals_blogs {
+        justify-content: center;
+        width: 200px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 20px;
+
+    }
+
+    .articals_blogs_title {
+        font-weight: 500;
+        font-size: 45px;
+        color: #131313;
+    }
+
+    .articals_blog {
+        width: 200px;
+    }
+
+    .articals_blogs_sub {
+        font-weight: 400;
+        font-size: 14px;
+
+    }
+
+    .articals_blog_description {
+        font-size: 14px;
+
+    }
+
+    .articals_img {
+        width: 200px;
+        height: 1059px;
+
+
+    }
+
+
+    /*
+ css style customer help part start  */
+
+    .customer_help_title {
+        font-weight: 500;
+        font-size: 24px;
+        margin: 15px;
+    }
+
+    .customer_help_info {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .help_parts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+
+    .sponser_title {
+        font-weight: 500;
+        font-size: 24px;
+        color: #131313;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sponser_description {
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        color: #727272;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .sponser_card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+
+    /* futter part */
+    .futter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        background: #FFF4E7;
+        border-radius: 8px;
+        margin-left: 20px;
+        margin-top: 130px;
+
+    }
+
+    .line {
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #424242;
+        ;
+    }
+
+
+
+
+    main,
+    .futter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+
+    }
 }
