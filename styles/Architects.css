@@ -543,8 +543,11 @@ span {
     }
 
     .articals_img {
-        width: 200px;
+        justify-content: center;
+        width: 300px;
         height: 1059px;
+        overflow-x: scroll;
+        border-radius: 8px;
 
 
     }
